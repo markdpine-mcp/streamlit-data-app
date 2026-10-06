@@ -36,7 +36,7 @@ def sql_query_with_user_token(query: str, user_token: str) -> pd.DataFrame:
 
 st.set_page_config(layout="wide")
 
-st.header("Taxi fare distribution !!! :)")
+st.header("Taxi fare distribution ! :)")
 col1, col2 = st.columns([3, 1])
 # Extract user access token from the request headers
 user_token = st.context.headers.get('X-Forwarded-Access-Token')
